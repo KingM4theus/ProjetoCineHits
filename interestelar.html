@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interestelar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="interestelar-page" data-movie-id="157336">
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo do Site" class="logo">
+            </a>
+        </div>
+        <div class="search-container">
+            <div class="dropdown">
+                <button class="dropbtn">Filtros ▼</button>
+                <div class="dropdown-content">
+                    <a href="#">Filtrar por Gênero</a>
+                    <a href="#">Filtrar por Avaliação</a>
+                </div>
+            </div>
+            <input type="text" class="search-bar" placeholder="Pesquise seu filme aqui...">
+        </div>
+        <h1>Interestelar</h1>
+    </header>
+    <div class="content-container">
+        <section class="movie-info-section">
+            <h2>Sinopse</h2>
+            <p>Interestelar é uma obra-prima de ficção científica dirigida por Christopher Nolan. A história segue um grupo de exploradores que viajam através de um buraco de minhoca em busca de um novo lar para a humanidade.</p>
+            <h2>Trailer</h2>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/zSWdZVtXT7E" 
+                title="Trailer do filme Interestelar"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h2>Sugestão em família</h2>
+            <p>Steven Spielberg, que foi escalado para dirigir o filme em 2006 e contratou Jonathan Nolan para escrever o roteiro, escolheu focar-se em outros projetos. Em 2012, após a saída de Spielberg, Jonathan Nolan sugeriu o projeto para seu próprio irmão, Christopher Nolan.</p>
+            <h3>Influências espaciais</h3>
+            <p>Christopher Nolan descreveu o filme como "uma ode ao voo espacial humano"; ele cita os "filmes espaciais" 2001 - Uma Odisséia no Espaço (1968), Guerra nas Estrelas (1977), Contatos Imediatos do Terceiro Grau (1977), Alien, o Oitavo Passageiro (1979) e Blade Runner, o Caçador de Androides (1982) como uma influência para o longa.</p>
+        </section>
+        <aside class="comments-section">
+            <h2>Comentários</h2>
+            <div class="emoji-container">
+                <span class="emoji" data-emoji="😊">😊</span>
+                <span class="emoji" data-emoji="😐">😐</span>
+                <span class="emoji" data-emoji="😢">😢</span>
+                <span class="emoji" data-emoji="😡">😡</span>
+            </div>
+            <form class="comment-form" id="commentForm">
+                <textarea id="commentText" placeholder="Escreva seu comentário..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="comments-list" id="commentsList">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </aside>
+        <div id="recommendations" class="recommendations-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

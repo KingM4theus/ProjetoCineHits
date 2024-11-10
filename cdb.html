@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cão de Briga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cdb-page" data-movie-id="184315">
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo do Site" class="logo">
+            </a>
+        </div>
+        <div class="search-container">
+            <div class="dropdown">
+                <button class="dropbtn">Filtros ▼</button>
+                <div class="dropdown-content">
+                    <a href="#">Filtrar por Gênero</a>
+                    <a href="#">Filtrar por Avaliação</a>
+                </div>
+            </div>
+            <input type="text" class="search-bar" placeholder="Pesquise seu filme aqui...">
+        </div>
+        <h1>Cão de Briga</h1>
+    </header>
+    <div class="content-container">
+        <section class="movie-info-section">
+            <h2>Sinopse</h2>
+            <p>Cão de Briga é um filme de ação que segue a história de um ex-pugilista que se envolve em lutas clandestinas para salvar seu melhor amigo, um cão de rua.</p>
+            <h2>Trailer</h2>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/e8EDlNoJVSY" 
+                title="Trailer do filme Cão de Briga"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h2>Atores</h2>
+            <p>Luc Besson escreveu o roteiro especialmente para Jet Li. Bart foi criado para ser interpretado por Albert Finney, que desistiu do projeto para atuar em Peixe Grande e Suas Histórias Maravilhosas (2003). O personagem foi então oferecido a Anthony Hopkins, Michael Caine e Brian Cox. Todos recusaram.</p>
+            <h3>Dica do intérprete</h3>
+            <p>Inicialmente o personagem de Morgan Freeman não seria cego. Essa foi uma sugestão do ator, que afirmou que por ser cego Sam teria maior facilidade em encarar Danny como uma criança, ao invés de um assassino brutal.</p>
+        </section>
+        <aside class="comments-section">
+            <h2>Comentários</h2>
+            <div class="emoji-container">
+                <span class="emoji" data-emoji="😊">😊</span>
+                <span class="emoji" data-emoji="😐">😐</span>
+                <span class="emoji" data-emoji="😢">😢</span>
+                <span class="emoji" data-emoji="😡">😡</span>
+            </div>
+            <form class="comment-form" id="commentForm">
+                <textarea id="commentText" placeholder="Escreva seu comentário..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="comments-list" id="commentsList">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </aside>
+        <div id="recommendations" class="recommendations-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

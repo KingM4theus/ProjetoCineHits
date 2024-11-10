@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek Terceiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="shrek-page" data-movie-id="810">
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo do Site" class="logo">
+            </a>
+        </div>
+        <div class="search-container">
+            <div class="dropdown">
+                <button class="dropbtn">Filtros ▼</button>
+                <div class="dropdown-content">
+                    <a href="#">Filtrar por Gênero</a>
+                    <a href="#">Filtrar por Avaliação</a>
+                </div>
+            </div>
+            <input type="text" class="search-bar" placeholder="Pesquise seu filme aqui...">
+        </div>
+        <h1>Shrek Terceiro</h1>
+    </header>
+    <div class="content-container">
+        <section class="movie-info-section">
+            <h2>Sinopse</h2>
+            <p>Shrek Terceiro é a terceira aventura do ogro favorito de todos, Shrek. Quando o Rei Harold adoece, Shrek é o próximo na linha de sucessão para o trono de Tão Tão Distante. Entretanto, Shrek não quer ser rei e parte em uma jornada para encontrar o verdadeiro herdeiro do trono, Artie, com a ajuda de seus amigos Burro e Gato de Botas.</p>
+            <h2>Trailer</h2>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/_MoIr7811Bs" 
+                title="Trailer do filme Shrek Terceiro"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h2>Curiosidades</h2>
+            <h3>Pesquisa de campo</h3>
+            <p>Os animadores visitaram escolas para estudar os gestos de adolescentes, como referência para a criação dos alunos da Academia Worcestershire e do personagem Artie.</p>
+            <h3>Mundo de conto de fadas</h3>
+            <p>Ao todo são vistos 23 personagens de contos de fadas/fantasia: Gato de Botas, três porquinhos, lobo mau, Homem-Biscoito, Pinóquio, três ratinhos cegos, Cinderela, Branca de Neve, Bela Adormecida, Rapunzel, Chapeuzinho Vermelho, Príncipe Encantado, Capitão Gancho, Cavaleiro Sem Cabeça, Rumplestiltskin, Ciclope, as irmãs feias e a rainha má.</p>
+        </section>
+        <!-- Seção de Comentários -->
+        <aside class="comments-section">
+            <h2>Comentários</h2>
+            <div class="emoji-container">
+                <span class="emoji" data-emoji="😊">😊</span>
+                <span class="emoji" data-emoji="😐">😐</span>
+                <span class="emoji" data-emoji="😢">😢</span>
+                <span class="emoji" data-emoji="😡">😡</span>
+            </div>
+            <form class="comment-form" id="commentForm">
+                <textarea id="commentText" placeholder="Escreva seu comentário..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="comments-list" id="commentsList">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </aside>
+        <div id="recommendations" class="recommendations-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
